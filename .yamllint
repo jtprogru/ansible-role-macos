@@ -1,0 +1,41 @@
+---
+# Based on ansible-lint config
+
+ignore: |
+  .github/*
+  molecule/*
+
+extends: default
+
+rules:
+  braces:
+    max-spaces-inside: 1
+    level: error
+  brackets:
+    max-spaces-inside: 1
+    level: error
+  colons:
+    max-spaces-after: -1
+    level: error
+  commas:
+    max-spaces-after: -1
+    level: error
+  comments: disable
+  comments-indentation: disable
+  document-start: disable
+  empty-lines:
+    max: 2
+    max-start: 2
+    max-end: 2
+  hyphens:
+    level: error
+  indentation: disable
+  key-duplicates: enable
+  line-length:
+    max: 2480
+    level: warning
+  new-line-at-end-of-file: enable
+  new-lines:
+    type: unix
+  trailing-spaces: enable
+  truthy: enable

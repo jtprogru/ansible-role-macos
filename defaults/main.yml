@@ -1,0 +1,109 @@
+---
+# defaults file for macos
+# sample_var: sample_value
+
+macos_hostname: "cronus"
+
+macos_homebrew_tap:
+  - "hashicorp/tap"
+  - "homebrew/bundle"
+  - "homebrew/cask"
+  - "homebrew/cask-fonts"
+  - "homebrew/cask-versions"
+  - "homebrew/core"
+  - "homebrew/services"
+
+macos_homebrew_pkg:
+  - "ansible"
+  - "bash"
+  - "coreutils"
+  - "curl"
+  - "freetype"
+  - "fzf"
+  - "gh"
+  - "git"
+  - "go"
+  - "httpie"
+  - "imagemagick"
+  - "jq"
+  - "name"
+  - "ncdu"
+  - "neofetch"
+  - "neovim"
+  - "newsboat"
+  - "node"
+  - "nvm"
+# - "postgresql@13"
+  - "python@3.9"
+  - "ranger"
+# - "redis"
+  - "rg"
+  - "rsync"
+  - "ruby"
+  - "screen"
+  - "shellcheck"
+  - "speedtest-cli"
+  - "sqlite"
+  - "telnet"
+  - "tig"
+  - "tree"
+  - "vagrant-completion"
+  - "wget"
+  - "zplug"
+  - "zsh"
+  - "zsh-autosuggestions"
+  - "zsh-syntax-highlighting"
+
+macos_homebrew_cask_pkg:
+  - "cloudflare-warp"
+  - "docker"
+  - "flux"
+  - "font-consolas-for-powerline"
+  - "font-fira-code"
+  - "font-meslo-for-powerline"
+  - "font-meslo-lg"
+  - "font-meslo-lg-dz"
+  - "font-meslo-lg-nerd-font"
+  - "font-roboto-mono"
+  - "font-roboto-mono-for-powerline"
+  - "goland"
+  - "gpg-suite-no-mail"
+  - "keybase"
+  - "notion"
+  - "pycharm"
+  - "rectangle"
+  - "visual-studio-code"
+  - "zoomus"
+
+macos_mas_pkg:
+  - name: "Day"
+    id: 1055511498
+  - name: "Flow"
+    id: 1423210932
+  - name: "GarageBand"
+    id: 682658836
+  - name: "Hidden"
+    id: 1452453066
+  - name: "IP"
+    id: 404167149
+  - name: "Keynote"
+    id: 409183694
+  - name: "Numbers"
+    id: 409203825
+  - name: "Pages"
+    id: 409201541
+  - name: "Slack"
+    id: 803453959
+  - name: "Telegram"
+    id: 747648890
+  - name: "Things3"
+    id: 904280696
+  - name: "Twitter"
+    id: 1482454543
+  - name: "Xcode"
+    id: 497799835
+  - name: "iA"
+    id: 775737590
+  - name: "iMovie"
+    id: 408981434
+

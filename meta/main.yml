@@ -1,0 +1,24 @@
+galaxy_info:
+  role_name: macos
+  namespace: jtprogru
+  author: Michael Savin
+  description: This is sample ansible role used me as boilerplate
+  company: SysOps
+
+  license: WTFPL
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: macOS
+      versions:
+        - "Big-Sur"
+        - "Monterey"
+
+  galaxy_tags:
+    - bootsptrap
+    - macos
+    - homebrew
+
+dependencies: []
+

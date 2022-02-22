@@ -1,0 +1,40 @@
+---
+name: CI
+'on':
+  pull_request:
+  push:
+    branches:
+      - develop
+
+defaults:
+  run:
+    working-directory: 'jtprogru.macos'
+
+jobs:
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out the codebase.
+        uses: actions/checkout@v2
+        with:
+          path: 'jtprogru.macos'
+
+      - name: Set up Python 3.
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Upgrade pip3.
+        run: pip3 install --upgrade pip
+
+      - name: Install test dependencies.
+        run: pip3 install yamllint ansible-lint ansible
+
+      - name: Lint code with yamllint.
+        run: yamllint .
+
+      - name: Lint code with ansible-lint.
+        run: ansible-lint
+

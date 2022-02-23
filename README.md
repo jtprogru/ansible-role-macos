@@ -3,7 +3,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jtprogru/ansible-role-macos/CI?label=CI)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jtprogru/ansible-role-macos/Release?label=Release)
 ![GitHub](https://img.shields.io/github/license/jtprogru/ansible-role-macos)
-[![Ansible Role](https://img.shields.io/ansible/role/54364)](https://galaxy.ansible.com/jtprogru/macos/)
+[![Ansible Role](https://img.shields.io/ansible/role/58191)](https://galaxy.ansible.com/jtprogru/macos/)
 [![GitHub tag](https://img.shields.io/github/tag/jtprogru/ansible-role-macos.svg)](https://github.com/jtprogru/ansible-role-macos/tags)
 
 This is sample ansible role used me as boilerplate.

@@ -20,15 +20,20 @@ See [`defaults/main.yml`](defaults/main.yml).
 Example playbook:
 ```yaml
 ---
-- name: Sample play
-  hosts: all
-  become: true
+- name: macOS
+  hosts: localhost
+  connection: local
+  become: false
+  gather_facts: true
 
   vars:
-    foo: bar
+    macos_hostname: "cronus"
+    macos_homebrew_tap_ext:
+      - coreutils
+      - ghc
 
   roles:
-    - jtprogru.sample_role
+    - jtprogru.macos
 ```
 
 ## Author
@@ -39,4 +44,4 @@ Twitter: [![Twitter Follow](https://img.shields.io/twitter/follow/jtprogru?color
 
 ## License
 
-See [LICENSE](LICENSE.md)
+See [LICENSE](LICENSE)

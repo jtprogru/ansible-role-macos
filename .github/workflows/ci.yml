@@ -33,8 +33,8 @@ jobs:
         run: pip3 install yamllint ansible-lint ansible
 
       - name: Lint code with yamllint.
-        run: yamllint .
+        run: yamllint --format github .
 
       - name: Lint code with ansible-lint.
-        run: ansible-lint
+        run: ansible-lint -p --parseable-severity --force-color -vvvvv
 

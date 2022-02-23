@@ -4,28 +4,37 @@
 - name: macOS | Tap a Homebrew repository, state present
   community.general.homebrew_tap:
     name: "{{ item }}"
-  with_items: "{{ macos_homebrew_tap }}"
+  with_items:
+    - "{{ macos_homebrew_tap }}"
+    - "{{ macos_homebrew_tap_ext }}"
   tags: ["tap"]
 
 - name: macOS | Install base soft
   community.general.homebrew:
     name: "{{ item }}"
     state: present
-  with_items: "{{ macos_homebrew_pkg }}"
+  with_items:
+    - "{{ macos_homebrew_pkg }}"
+    - "{{ macos_homebrew_pkg_ext }}"
   tags: ["base"]
 
 - name: macOS | Install cask soft
   community.general.homebrew_cask:
     name: "{{ item }}"
     state: present
-  with_items: "{{ macos_homebrew_cask_pkg }}"
+  with_items:
+    - "{{ macos_homebrew_cask_pkg }}"
+    - "{{ macos_homebrew_cask_pkg_ext }}"
   tags: ["cask"]
 
 - name: macOS | Install MAS soft
   community.general.mas:
     id: "{{ item.id }}"
     state: present
-  with_items: "{{ macos_mas_pkg }}"
+  with_items:
+    - "{{ macos_mas_pkg }}"
+    - "{{ macos_mas_pkg_ext }}"
+  tags: ["mas"]
 
 - name: macOS | Set a hostname
   ansible.builtin.hostname:

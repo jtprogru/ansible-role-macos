@@ -1,8 +1,7 @@
 ---
 # defaults file for macos
-# sample_var: sample_value
 
-macos_hostname: "cronus"
+macos_hostname: "macos"
 
 macos_homebrew_tap:
   - "hashicorp/tap"
@@ -13,8 +12,11 @@ macos_homebrew_tap:
   - "homebrew/core"
   - "homebrew/services"
 
+macos_homebrew_tap_ext: []
+
 macos_homebrew_pkg:
   - "ansible"
+  - "ansible-lint"
   - "bash"
   - "coreutils"
   - "curl"
@@ -49,10 +51,13 @@ macos_homebrew_pkg:
   - "tree"
   - "vagrant-completion"
   - "wget"
+  - "yamllint"
   - "zplug"
   - "zsh"
   - "zsh-autosuggestions"
   - "zsh-syntax-highlighting"
+
+macos_homebrew_pkg_ext: []
 
 macos_homebrew_cask_pkg:
   - "cloudflare-warp"
@@ -74,6 +79,8 @@ macos_homebrew_cask_pkg:
   - "rectangle"
   - "visual-studio-code"
   - "zoomus"
+
+macos_homebrew_cask_pkg_ext: []
 
 macos_mas_pkg:
   - name: "Day"
@@ -106,4 +113,6 @@ macos_mas_pkg:
     id: 775737590
   - name: "iMovie"
     id: 408981434
+
+macos_mas_pkg_ext: []
 

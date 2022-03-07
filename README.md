@@ -6,7 +6,7 @@
 [![Ansible Role](https://img.shields.io/ansible/role/58191)](https://galaxy.ansible.com/jtprogru/macos/)
 [![GitHub tag](https://img.shields.io/github/tag/jtprogru/ansible-role-macos.svg)](https://github.com/jtprogru/ansible-role-macos/tags)
 
-This is sample ansible role used me as boilerplate.
+This is simple ansible role for configure hostname and install my favorite soft from Homebrew and Mac App Store.
 
 
 ## Role Variables

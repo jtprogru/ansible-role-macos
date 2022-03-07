@@ -40,4 +40,3 @@
   ansible.builtin.hostname:
     name: "{{ macos_hostname }}.local"
   tags: ["hostname"]
-

@@ -37,4 +37,3 @@ jobs:
 
       - name: Lint code with ansible-lint.
         run: ansible-lint -p --parseable-severity --force-color -vvvvv
-

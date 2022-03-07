@@ -28,7 +28,6 @@ macos_homebrew_pkg:
   - "httpie"
   - "imagemagick"
   - "jq"
-  - "name"
   - "ncdu"
   - "neofetch"
   - "neovim"

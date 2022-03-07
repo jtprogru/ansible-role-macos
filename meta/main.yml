@@ -12,8 +12,7 @@ galaxy_info:
   platforms:
     - name: macOS
       versions:
-        - "Big-Sur"
-        - "Monterey"
+        - all
 
   galaxy_tags:
     - bootsptrap

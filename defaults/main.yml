@@ -1,8 +1,9 @@
 ---
-# defaults file for macos
 
+# Set host name
 macos_hostname: "macos"
 
+# Set default Homebrew tap
 macos_homebrew_tap:
   - "hashicorp/tap"
   - "homebrew/bundle"
@@ -12,58 +13,78 @@ macos_homebrew_tap:
   - "homebrew/core"
   - "homebrew/services"
 
+# Set extras Homebrew tap
 macos_homebrew_tap_ext: []
 
+# Set default Homebrew packages
 macos_homebrew_pkg:
   - "ansible"
   - "ansible-lint"
   - "bash"
+  - "brotli"
+  - "ca-certificates"
   - "coreutils"
   - "curl"
+  - "fontconfig"
   - "freetype"
   - "fzf"
+  - "gdbm"
+  - "gettext"
   - "gh"
   - "git"
+  - "gitbackup"
+  - "gnu-getopt"
   - "go"
   - "httpie"
+  - "hugo"
   - "imagemagick"
   - "jq"
+  - "lsd"
+  - "mas"
   - "ncdu"
+  - "ncurses"
   - "neofetch"
   - "neovim"
   - "newsboat"
   - "node"
-  - "nvm"
-# - "postgresql@13"
+  - "openssl@1.1"
+  - "pcre"
+  - "pcre2"
   - "python@3.9"
   - "ranger"
-# - "redis"
-  - "rg"
+  - "readline"
+  - "ripgrep"
   - "rsync"
-  - "ruby"
   - "screen"
-  - "shellcheck"
+  - "six"
   - "speedtest-cli"
   - "sqlite"
   - "telnet"
+  - "terraform"
+  - "terraform-ls"
   - "tig"
   - "tree"
-  - "vagrant-completion"
+  - "tree-sitter"
   - "wget"
+  - "xz"
   - "yamllint"
-  - "zplug"
+  - "yq"
   - "zsh"
   - "zsh-autosuggestions"
   - "zsh-syntax-highlighting"
 
+# Set extras Homebrew packages
 macos_homebrew_pkg_ext: []
 
+# Set default Homebrew cask packages
 macos_homebrew_cask_pkg:
+  - "caffeine"
   - "cloudflare-warp"
   - "docker"
   - "flux"
   - "font-consolas-for-powerline"
   - "font-fira-code"
+  - "font-hack-nerd-font"
   - "font-meslo-for-powerline"
   - "font-meslo-lg"
   - "font-meslo-lg-dz"
@@ -79,8 +100,10 @@ macos_homebrew_cask_pkg:
   - "visual-studio-code"
   - "zoomus"
 
+# Set extras Homebrew cask packages
 macos_homebrew_cask_pkg_ext: []
 
+# Set default Mac App Store (MAS) packages
 macos_mas_pkg:
   - name: "Day"
     id: 1055511498
@@ -106,6 +129,8 @@ macos_mas_pkg:
     id: 904280696
   - name: "Twitter"
     id: 1482454543
+  - name: "WireGuard"
+    id: 1451685025
   - name: "Xcode"
     id: 497799835
   - name: "iA"
@@ -113,4 +138,5 @@ macos_mas_pkg:
   - name: "iMovie"
     id: 408981434
 
+# Set extras Mac App Store (MAS) packages
 macos_mas_pkg_ext: []

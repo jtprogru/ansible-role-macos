@@ -93,6 +93,7 @@ macos_homebrew_cask_pkg:
   - "font-roboto-mono-for-powerline"
   - "goland"
   - "gpg-suite-no-mail"
+  - "iriunwebcam"
   - "keybase"
   - "notion"
   - "pycharm"

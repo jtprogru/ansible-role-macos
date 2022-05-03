@@ -61,6 +61,7 @@ macos_homebrew_pkg_ext: []
 
 macos_homebrew_cask_pkg:
   - "cloudflare-warp"
+  - "discord"
   - "docker"
   - "flux"
   - "font-consolas-for-powerline"

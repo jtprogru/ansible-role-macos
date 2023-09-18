@@ -1,5 +1,4 @@
 ---
-
 # Set host name
 macos_hostname: "macos"
 
@@ -92,12 +91,11 @@ macos_homebrew_cask_pkg:
   - "font-meslo-lg-nerd-font"
   - "font-roboto-mono"
   - "font-roboto-mono-for-powerline"
-  - "goland"
   - "gpg-suite-no-mail"
   - "iriunwebcam"
   - "keybase"
-  - "notion"
-  - "pycharm"
+  - "obsidian"
+  - "pycharm-ce"
   - "rectangle"
   - "visual-studio-code"
   - "zoomus"
